@@ -13,7 +13,7 @@ class AboutController extends Controller
      */
     public function index()
     {
-        return 'ok';
+        return view('site/about');
     }
 
     /**
