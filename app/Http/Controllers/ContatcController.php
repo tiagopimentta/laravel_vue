@@ -13,7 +13,7 @@ class ContatcController extends Controller
      */
     public function index()
     {
-        return 'contato';
+        return view('site/contact');
     }
 
     /**
